@@ -26,7 +26,7 @@ pipeline {
     
     stage('ci') {
       steps {
-        echo 'ci'
+        echo 'ci pipeline'
       }
     }
 
