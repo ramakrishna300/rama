@@ -23,6 +23,12 @@ pipeline {
         echo 'test'
       }
     }
+    
+    stage('ci') {
+      steps {
+        echo 'ci'
+      }
+    }
 
     stage('delever') {
       steps {
